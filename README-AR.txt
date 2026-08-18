@@ -16,8 +16,10 @@
 - assets/packages/silver.jpeg + silver-thumb.webp
 - assets/packages/gold.jpeg + gold-thumb.webp
 - assets/packages/vip.jpeg + vip-thumb.webp
-- assets/packages/platinum.jpeg + platinum-thumb.webp
-- assets/packages/classic.jpeg + classic-thumb.webp
+- assets/packages/party-flex.jpeg + party-flex-thumb.webp
+- assets/packages/party-platinum.jpeg + party-platinum-thumb.webp
+- assets/packages/party-gold.jpeg + party-gold-thumb.webp
+- assets/packages/party-classic.jpeg + party-classic-thumb.webp
 - assets/packages/match-elite.jpeg + match-elite-thumb.webp
 - assets/packages/match-stars.jpeg + match-stars-thumb.webp
 - assets/packages/match-crowd.jpeg + match-crowd-thumb.webp
@@ -41,11 +43,12 @@
 ملاحظات:
 - الخلفية ملونة وتتضمن ست نقاط زخرفية صغيرة بحركة GPU خفيفة بلا تتبع للمؤشر.
 - مؤشر الكاميرا الصغير أعلى البطاقة ينبض بحركة خفيفة.
-- صور باقات المناسبات والمباريات تستخدم معاينات WebP صغيرة، ولا تُحمّل الصورة الأصلية إلا عند الضغط عليها.
+- ترتيب أقسام الباقات: عقد القران، الحفلات، المباريات، ثم البث المباشر.
+- صور باقات عقد القران والحفلات والمباريات تستخدم معاينات WebP صغيرة، ولا تُحمّل الصورة الأصلية إلا عند الضغط عليها.
 - زر البث المباشر وخريطة التغطية يفتحان البطاقة كاملة في عارض مركزي بلا تمرير.
 - تبويب البث المباشر داخل الباقات يعرض بطاقة الأسعار المصورة كاملة عند الضغط.
-- نافذة شروط الحجز تعرض بطاقتي الشروط مع معاينات خفيفة وصفحات أصلية كاملة.
-- بطاقتا الشروط هما المرجع الوحيد داخل النافذة؛ أزيلت القائمة النصية المكررة.
+- بطاقتا شروط الحجز موجودتان أسفل باقات المباريات وتفتحان بالحجم الكامل.
+- أزيل زر شروط الحجز المستقل من الصفحة الرئيسية بعد دمج الشروط داخل قسم المباريات.
 - عنوان الاستوديو الرئيسي مضبوط بحجم أكثر هدوءًا وراحة للقراءة.
 - دخول الواجهة يستخدم Fade-in متدرجًا من الأعلى والجانبين عبر opacity وtransform فقط.
 - بطاقات الخدمات الست تستخدم صور WebP خفيفة بدل الأرقام.

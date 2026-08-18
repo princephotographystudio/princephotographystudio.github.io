@@ -183,7 +183,7 @@ body.loaded .page-loader { opacity: 0; visibility: hidden; }
 .modal-cta:hover { transform: translateY(-2px); box-shadow: 0 21px 42px rgba(193,145,51,.29); }
 
 .packages-sheet { padding-inline: 16px; }
-.package-tabs { display: grid; grid-template-columns: repeat(3,1fr); gap: 6px; margin: 16px 0 13px; padding: 5px; border-radius: 17px; background: rgba(255,255,255,.035); border: 1px solid rgba(255,255,255,.06); }
+.package-tabs { display: grid; grid-template-columns: repeat(2,1fr); gap: 6px; margin: 16px 0 13px; padding: 5px; border-radius: 17px; background: rgba(255,255,255,.035); border: 1px solid rgba(255,255,255,.06); }
 .package-tabs button { min-height: 42px; padding: 7px 4px; border: 0; border-radius: 13px; background: transparent; color: #9faebf; font-size: 9px; font-weight: 650; cursor: pointer; }
 .package-tabs button.active { color: #04101e; background: linear-gradient(120deg, var(--cyan-300), var(--cyan-500)); box-shadow: 0 10px 24px rgba(8,174,234,.18); }
 .package-panel { display: grid; gap: 10px; }
@@ -665,6 +665,10 @@ body.package-viewer-open { overflow: hidden; }
 
 .platinum-poster { border-color: rgba(200,243,255,.62); }
 .classic-poster { border-color: rgba(40,205,245,.58); }
+.party-flex-poster { border-color: rgba(110,231,255,.65); }
+.party-platinum-poster { border-color: rgba(200,243,255,.70); }
+.party-gold-poster { border-color: rgba(245,216,137,.72); }
+.party-classic-poster { border-color: rgba(40,205,245,.62); }
 .elite-poster { border-color: rgba(245,216,137,.62); }
 .stars-poster { border-color: rgba(110,231,255,.58); }
 .crowd-poster { border-color: rgba(219,182,91,.58); }
@@ -702,6 +706,33 @@ body.package-viewer-open { overflow: hidden; }
   border-color: rgba(245,216,137,.62);
   box-shadow: 0 12px 24px rgba(0,0,0,.30), 0 0 0 1px rgba(40,205,245,.08);
 }
+.booking-policy-heading {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin: 9px 0 0;
+  padding: 12px 13px;
+  border-radius: 17px;
+  border: 1px solid rgba(245,216,137,.30);
+  background: linear-gradient(135deg, rgba(219,182,91,.10), rgba(8,174,234,.07));
+  box-shadow: inset 0 0 0 1px rgba(110,231,255,.06);
+}
+.booking-policy-icon {
+  width: 45px;
+  height: 45px;
+  flex: 0 0 45px;
+  display: grid;
+  place-items: center;
+  border-radius: 15px;
+  color: var(--gold-300);
+  border: 1px solid rgba(245,216,137,.34);
+  background: rgba(2,12,23,.55);
+}
+.booking-policy-icon svg { width: 25px; height: 25px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.booking-policy-heading > span:last-child { min-width: 0; display: grid; gap: 3px; }
+.booking-policy-heading b { color: #fff; font-size: 13px; line-height: 1.6; }
+.booking-policy-heading small { color: #aebccc; font-size: 7.5px; line-height: 1.7; }
+.booking-terms-gallery { margin-bottom: 0; }
 
 @media (prefers-reduced-motion: reduce) {
   .reveal,
